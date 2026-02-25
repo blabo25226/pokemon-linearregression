@@ -5,7 +5,7 @@
 ## ファイルの概要
 
 * **`poke_linearmodel1.py`**
-  * ポケモンの「高さ(m)」を説明変数、「重さ(kg)」を目的変数とした通常の単回帰分析を行います。
+  * ポケモンの「高さ」を説明変数、「重さ」を目的変数とした通常の単回帰分析を行います。
   * 「大きいポケモンほど重い」という仮説を検証し、回帰直線と回帰診断図（Residuals vs Fitted, Normal Q-Q, Scale-Location, Residuals vs Leverage）を出力します。
 
 * **`poke_linearmodel2.py`**

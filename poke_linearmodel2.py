@@ -44,7 +44,6 @@ def calculate_male_ratio(value):
     return np.nan
 df['雄率'] = df['性別'].apply(calculate_male_ratio)
 
-print(df)
 
 #体重は高さの3乗に比例することに対しての両対数単回帰分析
 #回帰診断
